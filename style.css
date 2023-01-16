@@ -46,9 +46,14 @@ a, a:hover, a:focus{
 #sidebar ul{
     list-style-type: none;
 }
+#sidebar li a {
+    font-family: 'Cookie', Helvetica, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.1);
+}
 #sidebar ul li a{
     padding: 10px;
-    font-size: 1.1em;
+    font-size: 2em;
     display: block;
 }
 #sidebar ul li a:hover{
@@ -70,7 +75,7 @@ a[data-toggle="collapse"]{
     transform: translateY(-50%);
 }
 ul ul a{
-    font-size: 0.9em !important;
+    font-size: 2em !important;
     padding-left: 30px !important;
     background-color: #cf0d07;
     color: #fff;
