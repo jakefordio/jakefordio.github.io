@@ -95,6 +95,7 @@ ul ul a{
 }
 #sidebar_button{
     border: none;
+    padding: .5%;
     position: fixed;
     left: 250px;
     z-index: 99999;
